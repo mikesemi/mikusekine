@@ -1,0 +1,113 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #C9C9C9;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+/* logo Styling */
+.logo {
+    color: #000000;
+    list-style: none;
+    padding-top: 24px;
+    padding-left: 24px;
+    font-size: 16px;
+    
+}
+
+/* Header Styling */
+header {
+    padding-bottom: 24px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+/* Navigation styling */
+.header-nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+}
+
+.header-nav li {
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* Portfolio Section */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    padding-top: 32px;
+}
+.portfolio-grid img{
+    width:100%;
+}
+
+/* Study Section */
+#study {
+    padding-top : 48px;
+    text-align: center;
+}
+
+.study-h2 {
+    font-size: 20px;
+    padding-bottom : 24px;
+}
+
+.study-grid {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 24px;
+}
+
+.study-grid img {
+    height: 198px ;
+}
+
+/* Footer */
+footer {
+    color: #000000;
+    padding: 48px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
